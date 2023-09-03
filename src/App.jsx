@@ -1,7 +1,13 @@
+import { Layout } from './layout';
+import { Contacts, Experience, Preview, Skills } from './components/view';
+
 const App = () => (
-    <h1 className="text-3xl font-bold underline">
-        Hello world!
-    </h1>
-)
+  <Layout>
+    <Preview />
+    <Skills />
+    <Experience />
+    <Contacts />
+  </Layout>
+);
 
 export default App;
